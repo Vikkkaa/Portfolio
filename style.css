@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 h3 {
@@ -42,6 +42,7 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .navigation-links a {
@@ -126,12 +127,12 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: rgb(175, 161, 161);
 }
 
 .yogurt-app {
   text-align: left;
-  margin-left: 10px;
+ margin-left: 5px;
 }
 
 .yogurt-app-text {
@@ -154,15 +155,33 @@ p {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 48px;
   }
   h2 {
     font-size: 24px;
+  } 
+  h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .hidden-mobile {
+    display: none;
   }
   .navigation-links {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
   }
+  .yoga-app {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .yoga-text {
+    text-align: center;
+  }
+  .yoga-app-link {
+    text-align: center;
+  }
+
 }
