@@ -199,4 +199,7 @@ p {
     margin-left: 35px;
     margin-right: 35px;
   }
+  .weather-app-link {
+    margin-bottom: 10px;
+  }
 }
