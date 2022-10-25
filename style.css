@@ -118,6 +118,7 @@ p {
   text-align: right;
 }
 .weather-app-link {
+  
   margin-left: 200px;
   border-radius: 4px;
   padding: 20px 15px;
@@ -143,6 +144,7 @@ p {
 }
 
 .yogurt-app-link {
+  
   border-radius: 4px;
   padding: 20px 15px;
   margin-left: 12px;
@@ -198,7 +200,12 @@ p {
     margin-left: 35px;
     margin-right: 35px;
   }
+  .yoga-app-link {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
   .weather-app-link {
     margin-bottom: 0;
   }
+
 }
